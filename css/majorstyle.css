@@ -1,0 +1,181 @@
+.content {
+    font-weight: bolder;
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+    min-width: 280px;
+    font-family: 'Montserrat' !important;
+}
+.Container {
+    background: 
+    repeating-linear-gradient(209deg, hsla(238, 100%, 50%, 0.039) 0px, hsla(0, 100%, 50%, 0.039) 1px,transparent 1px, transparent 76px),
+    repeating-linear-gradient(77deg, hsla(238, 100%, 50%, 0.039) 0px, hsla(238, 100%, 50%, 0.039) 1px,transparent 1px, transparent 76px),
+    repeating-linear-gradient(5deg, hsla(238, 100%, 50%, 0.039) 0px, hsla(238, 100%, 50%, 0.039) 1px,transparent 1px, transparent 36px),
+    repeating-linear-gradient(136deg, hsla(238, 100%, 50%, 0.039) 0px, hsla(238, 100%, 50%, 0.039) 1px,transparent 1px, transparent 36px),
+    repeating-linear-gradient(78deg, hsla(238, 100%, 50%, 0.039) 0px, hsla(238, 100%, 50%, 0.039) 1px,transparent 1px, transparent 15px),
+    repeating-linear-gradient(290deg, hsla(238, 100%, 50%, 0.039) 0px, hsla(238, 100%, 50%, 0.039) 1px,transparent 1px, transparent 15px),
+    repeating-linear-gradient(49deg, hsla(238, 100%, 50%, 0.039) 0px, hsla(238, 100%, 50%, 0.039) 1px,transparent 1px, transparent 15px),
+    linear-gradient(90deg,
+    #ddfffc,
+    #ddfffc);
+}
+
+#secondbg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .8;
+    /* height: 100vh; */
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-image: url(../img/wp.webp);
+    background-size: cover;
+    background-position: 50%;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+#majorContainer {
+    position: relative;
+    z-index: 3;
+    width: 66%;
+    min-width: 330px;
+    border-radius: 20px;
+    /* background: #fff;
+    background-image: url(../img/iput-bg.jpg); */
+    opacity: 1;
+    margin-top: 0;
+    padding: 20vh 20px 20px;
+    display: inline-block;
+    left: 17%;
+    top: 15vh;
+    height: 70vh;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+#minorContainer {
+    position: relative;
+    z-index: 3;
+    width: 66%;
+    min-width: 330px;
+    border-radius: 20px;
+    /* background: #fff;
+    background-image: url(../img/iput-bg.jpg); */
+    opacity: 1;
+    margin-top: 0;
+    padding: 20vh 20px 20px;
+    display: inline-block;
+    left: 17%;
+    top: 15vh;
+    height: 70vh;
+    text-align: center !important;
+    vertical-align: middle !important;
+}
+
+#orientationText {
+    letter-spacing: .20em;
+}
+
+/* #movetolast {
+    background-color: rgb(85, 147, 255);
+    position: absolute;
+    display: inline-block;
+    bottom: 6vh;
+    font-size: 17px;
+    padding: 5px 5px 5px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    transition: all 0.3s;
+} */
+
+
+header h2 {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: azure;
+}
+
+header h4 {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: azure;
+}
+#lastText {
+    font-size: 30px;
+}
+
+#continue {
+    position: absolute;
+    display: inline-block;
+    bottom: 3vh;
+    right: 6.5%;
+    font-size: 18px;
+    transition: all 0.3s;
+}
+#continuelast {
+    position: absolute;
+    display: inline-block;
+    bottom: 3vh;
+    right: 6.5%;
+    font-size: 18px;
+    transition: all 0.3s;
+
+}
+@media only screen and (max-width: 500px) {
+    #majorContainer {
+        min-width: 60%;
+        width: 80%;
+        left: 10%;
+    }
+    #minorContainer {
+        min-width: 60%;
+        width: 80%;
+        left: 10%;
+    }
+    header h2 {
+        font-family: 'Montserrat';
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5px;
+        color: azure;
+    }
+    header h4 {
+        font-family: 'Montserrat';
+        text-align: center;
+        padding: 7px;
+        font-size: 18px;
+    }
+    #no {
+        position: absolute;
+        display: inline-block;
+        left: 7%;
+        top: 300vh;
+        font-size: 16px;
+        padding: 3px;
+        transition: all 0.1s ease-out;
+    }
+    #continue {
+        position: absolute;
+        display: inline-block;
+        bottom: 3vh;
+        font-size: 16px;
+        right: 7%;
+        transition: all 0.3s ease-out;
+    }
+    #continuelast {
+        position: absolute;
+        display: inline-block;
+        bottom: 3vh;
+        font-size: 16px;
+        right: 7%;
+        transition: all 0.3s ease-out;
+    }
+}
+

@@ -1,0 +1,22 @@
+const CONFIG = {
+    titleWeb: "53_71-23_92",
+    introTitle: 'Welcome! 😁',
+    introDesc: `Made by Bubik\n(Yang lain beban kelompok)\nAuthorised people only\nDon't share this to anyone`,
+    btnIntro: 'Ok',
+    title: 'I wanna tell u something secret..',
+    desc: 'Mau denger gak?',
+    btnYes: 'Mau',
+    btnContinue: 'Continue',
+    btnNo: 'Ga ah, males',
+    question: 'no',
+    btnReply: 'no',
+    reply: 'no',
+    mess: 'no',
+    messDesc: 'no',
+    btnAccept: 'no',
+    titleWebMajor: 'I_Lu-V_U',
+    //titleWebMajor: '53_71-23_92',
+    secondTitle: 'Tes',
+    secondDesc: 'Tes',
+    messLink: 'https://github.com/zukahai/Confess-Crush' //link mess của các bạn. VD: https://www.facebook.com/messages/t/100014188333536
+}

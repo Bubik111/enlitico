@@ -1,0 +1,148 @@
+.content {
+    position: relative;
+    z-index: 3;
+}
+
+#headercontainer {
+    position: relative;
+    z-index: 0;
+    width: 60%;
+    min-width: 115px;
+    border-radius: 20px;
+    background: #fff;
+    background-image: url(../img/iput-bg.jpg);
+    opacity: 1;
+    margin-top: 0;
+    padding: 15px 15px 15px;
+    display: inline-block;
+    left: 20%;
+    top: 15vh;
+}
+
+#no {
+    position: absolute;
+    display: inline-block;
+    left: 35%;
+    top: 40vh;
+    -webkit-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+}
+
+#yes {
+    position: absolute;
+    display: inline-block;
+    left: 40%;
+    top: 20vh;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+#bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .8;
+    /* height: 100vh; */
+    z-index: 0;
+    background-repeat: no-repeat;
+    background-image: url(../img/wp.webp);
+    background-size: cover;
+    background-position: 50%;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.swal2-image {
+    object-fit: cover;
+}
+
+.swal2-title,
+.swal2-content {
+    color: azure !important;
+    white-space: pre-line;
+}
+
+.swal2-popup {
+    border-radius: 15px !important;
+}
+
+header h2 {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: azure;
+}
+
+header h4 {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: azure;
+}
+
+@media only screen and (max-width: 500px) {
+    #headercontainer {
+        
+    
+    
+    }
+    header h2 {
+        font-family: 'Montserrat';
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5px;
+        color: azure;
+    }
+    header h4 {
+        font-family: 'Montserrat';
+        text-align: center;
+        padding: 7px;
+        font-size: 18px;
+    }
+    #no {
+        position: absolute;
+        display: inline-block;
+        left: 7%;
+        top: 300vh;
+        font-size: 16px;
+        padding: 3px;
+        -webkit-transition: all 0.1s ease-out;
+        transition: all 0.1s ease-out;
+    }
+    #yes {
+        position: absolute;
+        display: inline-block;
+        left: 58%;
+        top: 300vh;
+        font-size: 16px;
+        padding: 3px;
+        width: 20%;
+        -webkit-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+    }
+}
+
+.swal2-backdrop-show {
+    background-size: 200px 100px !important;
+}
+
+.btn.btn-info.btn-lg {
+    color: #fff;
+    background-color: #2aa377;
+    border-color: #2aa377;
+}
+
+.btn.btn-info:hover {
+    color: #fff;
+    background-color: #337c61;
+    border-color: #308465;
+}
+
+.swal2-cancel.order-2.swal2-styled {
+    background-color: #dc3545;
+}
+
