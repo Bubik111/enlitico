@@ -90,7 +90,7 @@ header h4 {
     }
     header h2 {
         font-family: 'Montserrat';
-        font-size: 25px;
+        font-size: 23px;
         font-weight: bold;
         text-align: center;
         margin-bottom: 5px;
@@ -100,7 +100,7 @@ header h4 {
         font-family: 'Montserrat';
         text-align: center;
         padding: 7px;
-        font-size: 18px;
+        font-size: 16px;
     }
     #no {
         position: absolute;
