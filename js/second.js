@@ -15,8 +15,6 @@ $(document).ready(function() {
 
 function init() {
     document.getElementById('titleWebMajor').innerHTML = CONFIG.titleWebMajor
-    //$('#secondTitle').text(CONFIG.secondTitle)
-    //$('#secondDesc').text(CONFIG.secondDesc)
     $('#continue').text(CONFIG.btnContinue)
     $('#no').text(CONFIG.btnNo)
 
