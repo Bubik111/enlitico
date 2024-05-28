@@ -3,7 +3,7 @@
     font-size: 34px;
     color: rgb(0, 0, 0);
     min-width: 280px;
-    font-family: 'Montserrat' !important;
+    font-family: 'Montserrat';
 }
 .Container {
     background: 
@@ -49,8 +49,8 @@
     left: 17%;
     top: 15vh;
     height: 70vh;
-    text-align: center !important;
-    vertical-align: middle !important;
+    text-align: center;
+    vertical-align: middle;
 }
 
 #minorContainer {
@@ -66,8 +66,8 @@
     left: 17%;
     top: 15vh;
     height: 70vh;
-    text-align: center !important;
-    vertical-align: middle !important;
+    text-align: center;
+    vertical-align: middle;
 }
 
 #orientationText {
