@@ -32,9 +32,6 @@ function firstQuestion() {
     Swal.fire({
         title: CONFIG.introTitle,
         text: CONFIG.introDesc,
-        //imageUrl: 'img/logi.gif',
-        //imageWidth: 300,
-        //imageHeight: 300,
         allowOutsideClick: false,
         allowEscapeKey: false,
         background: '#fff url("img/iput-bg.jpg")',
@@ -50,8 +47,6 @@ function firstQuestion() {
 
 // switch button position
 function switchButton() {
-    //var audio = new Audio('sound/duck.mp3');
-    //audio.play();
     var leftNo = $('#no').css("left");
     var topNO = $('#no').css("top");
     var leftY = $('#yes').css("left");
@@ -88,28 +83,6 @@ $('#no').click(() => {
         moveButton();
 })
 
-
-// generate text in input
-function textGenerate() {
-    var n = "";
-    var text = " " + CONFIG.reply;
-    var a = Array.from(text);
-    var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
-    var count = textVal.length;
-    if (count > 0) {
-        for (let i = 1; i <= count; i++) {
-            n = n + a[i];
-            if (i == text.length + 1) {
-                $('#txtReason').val("");
-                n = "";
-                break;
-            }
-        }
-    }
-    $('#txtReason').val(n);
-    setTimeout("textGenerate()", 1);
-}
-
 // show popup
 $('#yes').click(function() {
     Swal.fire({
@@ -132,36 +105,3 @@ $('#yes').click(function() {
         }
     })
 })
-
-    /*;
-    Swal.fire({
-        title: CONFIG.question,
-        html: true,
-        width: 900,
-        padding: '3em',
-        html: "<input type='text' class='form-control' id='txtReason' onmousemove=textGenerate()  placeholder='Whyyy'>",
-        background: '#fff url("img/iput-bg.jpg")',
-        backdrop: `
-            rgba(0,0,123,0.4)
-            url("img/giphy2.gif")
-            left top
-            no-repeat
-            `,
-        confirmButtonColor: '#3085d6',
-        confirmButtonColor: '#fe8a71',
-        confirmButtonText: CONFIG.btnReply
-    }).then((result) => {
-        if (result.value) {
-            Swal.fire({
-                width: 900,
-                confirmButtonText: CONFIG.btnAccept,
-                background: '#fff url("img/iput-bg.jpg")',
-                title: CONFIG.mess,
-                text: CONFIG.messDesc,
-                confirmButtonColor: '#83d0c9',
-                onClose: () => {
-                    window.location = CONFIG.messLink;
-                }
-            })
-        }
-    })*/
