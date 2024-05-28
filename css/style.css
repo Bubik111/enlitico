@@ -84,11 +84,6 @@ header h4 {
 }
 
 @media only screen and (max-width: 500px) {
-    #headercontainer {
-        
-    
-    
-    }
     header h2 {
         font-family: 'Montserrat';
         font-size: 25px;
@@ -125,24 +120,16 @@ header h4 {
         transition: all 0.3s ease-out;
     }
 }
-
-.swal2-backdrop-show {
-    background-size: 200px 100px !important;
-}
-
 .btn.btn-info.btn-lg {
     color: #fff;
     background-color: #2aa377;
     border-color: #2aa377;
 }
-
 .btn.btn-info:hover {
     color: #fff;
     background-color: #337c61;
     border-color: #308465;
 }
-
 .swal2-cancel.order-2.swal2-styled {
     background-color: #dc3545;
 }
-
