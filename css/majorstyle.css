@@ -42,8 +42,6 @@
     width: 66%;
     min-width: 330px;
     border-radius: 20px;
-    /* background: #fff;
-    background-image: url(../img/iput-bg.jpg); */
     opacity: 1;
     margin-top: 0;
     padding: 20vh 20px 20px;
@@ -61,8 +59,6 @@
     width: 66%;
     min-width: 330px;
     border-radius: 20px;
-    /* background: #fff;
-    background-image: url(../img/iput-bg.jpg); */
     opacity: 1;
     margin-top: 0;
     padding: 20vh 20px 20px;
@@ -78,34 +74,6 @@
     letter-spacing: .20em;
 }
 
-/* #movetolast {
-    background-color: rgb(85, 147, 255);
-    position: absolute;
-    display: inline-block;
-    bottom: 6vh;
-    font-size: 17px;
-    padding: 5px 5px 5px;
-    border-radius: 8px;
-    outline: none;
-    border: none;
-    transition: all 0.3s;
-} */
-
-
-header h2 {
-    font-family: 'Montserrat';
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-    color: azure;
-}
-
-header h4 {
-    font-family: 'Montserrat';
-    text-align: center;
-    color: azure;
-}
 #lastText {
     font-size: 30px;
 }
@@ -137,29 +105,6 @@ header h4 {
         min-width: 60%;
         width: 80%;
         left: 10%;
-    }
-    header h2 {
-        font-family: 'Montserrat';
-        font-size: 25px;
-        font-weight: bold;
-        text-align: center;
-        margin-bottom: 5px;
-        color: azure;
-    }
-    header h4 {
-        font-family: 'Montserrat';
-        text-align: center;
-        padding: 7px;
-        font-size: 18px;
-    }
-    #no {
-        position: absolute;
-        display: inline-block;
-        left: 7%;
-        top: 300vh;
-        font-size: 16px;
-        padding: 3px;
-        transition: all 0.1s ease-out;
     }
     #continue {
         position: absolute;
