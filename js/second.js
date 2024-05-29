@@ -71,17 +71,20 @@ function typeWriterEnding() {
 $('#continue').click(() => {
     $('#majorContainer').hide();
     $('#minorContainer').show();
-    setTimeout(typeWriterMinor, 1000)
+    setTimeout(typeWriterMinor, 1000);
     setTimeout((function(){
         $('#continue').hide();
         $('#continuelast').show();
     }),4000);
+    setTimemout((function(){
+        window.location.href = "https://google.com"
+    }),18000);
 })
 
 var iMinor = 0;
 var iLast = 0;
 var txtMinor = 'Can I be closer with u?';
-var txtLast = 'Apapun jawabannya, aku berterima kasih.'
+var txtLast = 'Apapun jawabannya, thank you for everything.'
 var speed4 = 100
 var speed5 = 100
 
